@@ -1,5 +1,3 @@
-/*editing home text*/
-
 h1, a, h2, p {
   color: white;
   font-family:'Times New Roman', Times, serif;
@@ -28,5 +26,4 @@ body{ background-color: #105810;
 }
 
 img{object-fit:cover;}
-
 

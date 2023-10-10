@@ -1,0 +1,64 @@
+nav{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  background-color: rgb(76, 76, 76);
+  padding: 20px;
+  height: 70px; 
+  display: flex;
+  flex-direction: column;}
+
+  .name{ 
+  position:absolute;
+  top:0;
+  left:0;}
+
+.links{ position:absolute;
+margin-top: 60px;}
+
+main{background-color:black;
+padding:20px;
+border-radius:10px;
+box-shadow: 0 0 5px rgb(0,0,0.1);
+
+;
+}
+
+
+
+p{ margin-bottom: 20px;
+flex:1;}
+
+
+
+h1{font-size: 3rem;
+text-decoration: underline;
+text-align: left;
+margin:0;
+padding: 0;}
+
+
+
+header { font-size: 3em;
+margin-top: 100px;}
+
+h2{ font-size: 3em;}
+
+p { font-size: 2em;}
+
+.cartagena{ float:right;
+object-fit: cover; padding:2px;
+}
+
+.golden_gloves {float:right;
+object-fit: cover; padding:2px;
+}
+
+.hiking{float: right;
+object-fit:cover; padding:2px;
+}
+
+
+
+img{ float:right;} 
