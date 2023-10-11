@@ -40,16 +40,16 @@ h1{font-size: 3rem;
     
     header{
       font-size: 3em;
-      margin-top: 100px;
+      margin-top: 30px;
       width: 100%;
-      height: 100%;
+      
       background-color: black;
       color: white;
       margin-left:0;
       padding-top: 10px;}
 
         p{color:white;
-          font-size: 2em;
+          font-size: 1.5em;
           text-align: left;
           line-height: 1.5;
           letter-spacing:1px;
@@ -57,12 +57,37 @@ h1{font-size: 3rem;
 
 
           img{object-fit: cover;
-           margin-left: 70%;}
+           margin-left: 70%;
+          padding: 0;}
 
            .qoute{ font-size: 20px;
           font-style: oblique;}
 
 
 
-          main{min-height: 100vh;
-            padding: 85px 24px 96px;}
+          main{ width:60rem;
+            height:58rem;
+            background-color: black;
+            padding: 85px 24px 96px;
+           display: block;
+        flex-direction: column;}
+       
+
+          footer{ position: fixed;
+            left:0;
+            bottom:0;
+            width:100%;
+            background-color:rgb(76, 76, 76);
+          padding:20px;
+          height: 30px;}
+
+          .qoute{ width:22rem;
+          text-align: left;}
+        
+
+
+          .container{display:flex;
+          justify-content: center;
+           height:100vh;}
+
+          
