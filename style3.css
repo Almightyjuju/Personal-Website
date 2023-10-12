@@ -1,5 +1,4 @@
-body{ 
-  background-color: #105810;
+body{ background-color: #105810;
   width: 100vw;
   height: 100vh;}
 
@@ -18,23 +17,12 @@ nav{
 .name{ 
   position: absolute;
   top: 0;
-  left: 0;}
+  left: 0;
+}
 
 .links{ 
 position: absolute;
 margin-top: 60px;}
-
-
-
-main{ 
-  width:60rem;
-  height:58rem;
-  background-color: black;
-  padding: 85px 24px 96px;
-  display: block;
-  flex-direction: column;
-  }
-
 
 h1{
   font-family:'Times New Roman', Times, serif;
@@ -45,8 +33,6 @@ h1{
   padding: 10px;
   color: white}
 
-
-
 a{
   font-family:'Times New Roman', Times, serif;
   background-color: #105810;
@@ -54,47 +40,57 @@ a{
   padding: 5px;
   font-size: 20px;}
 
-    
-header{
-  font-family:'Times New Roman', Times, serif;
-  font-size: 3em;
-  margin-top: 30px;
-  width: 100%;
-  background-color: grey;
-  color: white;
-  margin-left:0;
-  padding-top: 10px;}
+   
+  
+main{
+  background-color: white;padding:20px;
+  box-shadow: 0 0 5px rgb(0,0,0.1);
+  display:flex;
+  flex-direction: column;
+  margin-left:auto;
+  margin-right:auto;}
 
 p{
   font-family:'Times New Roman', Times, serif;
-  color:white;
   font-size: 1.5em;
-  text-align: left;
+  text-align: center;
   line-height: 1.5;
-  letter-spacing:1px;
+  letter-spacing: 1px;
   text-indent: 50px;}
 
 
-img{object-fit: cover;
-  margin-left: 70%;
-  padding: 0;}
+header{
+ font-family:'Times New Roman', Times, serif;
+  font-size: 3em;
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  margin-left:0;
+  padding: 10px;}
 
-          
 
-footer{ position: fixed;
+
+.container{display:flex;}
+
+
+
+.images{
+  flex:1;
+  text-align:center ;
+padding-bottom: 10px;}
+
+
+img{ object-fit: cover;}
+
+
+footer{ 
+  position: fixed;
   left:0;
   bottom:0;
   width:100%;
   background-color:rgb(76, 76, 76);
   padding:20px;
-  height: 50px;}
-
-.quote{ width:22rem;
-  text-align: left;
-  font-size: 20px; font-style: oblique;}
-        
-
-
-.container{display:flex;
-  justify-content: center;
-  height:100vh;}
+  height: 25px;
+padding-top: 20px;} 
