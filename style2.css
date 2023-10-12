@@ -1,5 +1,6 @@
+
 body{ background-color:#105810;
-  width:  100vw;
+  width:  100vh;
   height: 100vh; }
 
 nav{
@@ -20,52 +21,43 @@ nav{
   left: 0;}
 
 .links{ 
-position: absolute;
-margin-top: 60px;}
+  position: absolute;
+  margin-top: 60px;}
 
-h1{
-  font-family:'Times New Roman', Times, serif;
-  font-size: 3rem;
+h1{font-size: 3rem;
   text-decoration: underline;
   text-align: left;
   margin:0;
   padding: 10px;
-  color: white;}
+  color: rgb(255, 255, 255);}
 
-a{
-  font-family:'Times New Roman', Times, serif;
-  background-color: #105810;
-  color: rgb(0, 0, 0);
-  padding: 5px;
-  font-size: 20px;}
-      
+
 main{
   width:60rem;
-  height: 165rem;
-  background-color:black; 
-  box-shadow: 0 0 5px rgb(0,0,0.1);
-  display:flex;
-  flex-direction: column;
-  padding: 85px 24px 96px;}
+            height: 165rem;
+background-color:black; 
+box-shadow: 0 0 5px rgb(0,0,0.1);
+display:flex;
+flex-direction: column;
+
+padding: 85px 24px 96px;}
 
 header{
-  font-family:'Times New Roman', Times, serif;
-  font-size: 3em;
-  margin-top: 100px;
-  width: 100%;
-  height: 35%;
-  background-color: grey;
-  color: white;
-  padding: 5px;}
-
+font-size: 3em;
+margin-top: 100px;
+width: 100%;
+  height: 30%;
+  background-color: rgb(152, 152, 152);
+  color: white; padding: 10px;
+}
 
 h2{
   font-family:'Times New Roman', Times, serif;
   font-size: 3rem;
   left:0;
   color: white;
-  font-weight: bold}
-  
+}
+
 
 
 p{
@@ -74,30 +66,37 @@ p{
   text-align: left;
   line-height: 1.5;
   letter-spacing:1px;
-  text-indent: 50px;
-  color:white;}
-    
+  text-indent: 50px;}
 
 
 img{
- float:right;
- object-fit: cover;
- border: 10px solid #105810;}
-      
+   float:right;
+  object-fit: cover;
+border: 10px solid #105810;
+}
+
+a{
+  background-color: #105810;
+  color: rgb(0, 0, 0);
+  padding: 5px; font-size: 20px
+  ;}
 
 
+  p{color:white 
+  }
 
-.container{display:flex;
-  justify-content: center;}
+
+  .container{display:flex;
+    justify-content: center;}
   
 
 
 
 
-footer{ position: fixed;
-  left:0;
-  bottom:0;
-  width:100%;
-  background-color:rgb(76, 76, 76);
-  padding:20px;
-  height: 30px;}
+    footer{ position: fixed;
+      left:0;
+      bottom:0;
+      width:100%;
+      background-color:rgb(76, 76, 76);
+    padding:20px;
+    height: 30px;}
