@@ -10,4 +10,3 @@ alert("Hello, My name is Junior Pizzati. I am a student at Fullstack Academy lea
 
 
 
-let 
