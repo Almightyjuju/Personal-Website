@@ -32,7 +32,7 @@ main{
   height:58rem;
   background-color: black;
   padding: 85px 24px 96px;
-  display: block;
+  display: flex;
   flex-direction: column;
   }
 
