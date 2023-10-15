@@ -98,10 +98,10 @@ footer{
 
 
 #sub-b{
-  justify-content: center;
   width: 100vw;
   height: 100vh;
-  display:block;
+  display: flex;
+  align-items: center;
   background-color: #105810;}
 
 #sub-n{
@@ -113,8 +113,7 @@ footer{
 }  
   
 #sub-m{
-  position: absolute;
-  z-index: -1;
+  margin-top: 6rem;
 }  
 
 #sub-h{
