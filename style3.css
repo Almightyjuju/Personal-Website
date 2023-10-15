@@ -1,4 +1,5 @@
-body{ background-color: #105810;
+body{ 
+  background-color: #105810;
   width: 100vw;
   height: 100vh;}
 
@@ -11,7 +12,8 @@ nav{
   padding: 20px;
   height: 70px; 
   display: flex;
-  flex-direction: column;}
+  flex-direction: column;
+  justify-content: space-between;}
 
 
 .name{ 
@@ -40,7 +42,7 @@ a{
   padding: 5px;
   font-size: 20px;}
 
-   
+  a:hover{ color: yellow;}    
   
 main{
   background-color: white;padding:20px;
@@ -81,7 +83,6 @@ header{
   text-align:center ;
 padding-bottom: 10px;}
 
-
 img{ object-fit: cover;}
 
 
@@ -93,4 +94,4 @@ footer{
   background-color:rgb(76, 76, 76);
   padding:20px;
   height: 25px;
-padding-top: 20px;} 
+ padding-top: 20px;} 
