@@ -1,5 +1,7 @@
 
-body{ background-color:#105810;
+body{ 
+  
+  background-color:#105810;
   width:  100vh;
   height: 100vh; }
 
@@ -33,8 +35,8 @@ h1{font-size: 3rem;
 
 
 main{
-  width:60rem;
-            height: 165rem;
+width:60rem;
+height: 165rem;
 background-color:black; 
 box-shadow: 0 0 5px rgb(0,0,0.1);
 display:flex;
