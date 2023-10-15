@@ -31,9 +31,6 @@ nav{
 
   main{
     position: flex;
-    margin-top: 2rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
     width: 60rem;
     height: 40rem;
     background-color: black;
@@ -68,6 +65,7 @@ a{
 
 
 header{
+  font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   font-size: 4rem;
   color: white;}
@@ -100,6 +98,7 @@ footer{
 
 
 #sub-b{
+  justify-content: center;
   width: 100vw;
   height: 100vh;
   display:block;
