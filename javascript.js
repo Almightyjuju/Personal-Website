@@ -1,3 +1,7 @@
+const jr = "Junior";
+console.log("Hello, my name is" + jr + ".")
+
+
 let greetings = "Welcome to Junior's Personal Website"
 
 console.log(greetings)
